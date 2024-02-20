@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public interface SongRepository {
 
-    public ArrayList<Song> getAllSongs();
-    public Song addSong(Song song);
-    public Song getSongById(int songId);
-    public Song updateSongById(int songId,Song song);
-    public void deleteSongById(int songId);
+    ArrayList<Song> getAllSongs();
+    Song addSong(Song song);
+    Song getSongById(int songId);
+    Song updateSongById(int songId,Song song);
+    void deleteSongById(int songId);
 
 
 }
